@@ -23,7 +23,7 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 public class pptService {
 
-	public static String pptToPdf() throws IOException, InvalidFormatException, DocumentException {
+	public static String ppttoPdf() throws IOException, InvalidFormatException, DocumentException {
 		String sourcePath = "/home/jinx/final.pptx";
 		String destinationPath = "/home/jinx/fileName.pdf";
 		FileInputStream inputStream = new FileInputStream(sourcePath);
